@@ -1,0 +1,52 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-05T14:28:29",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/aa2ac780-2721-4c8d-9e61-36df9bfa9575",
+            "violations": []
+        },
+        {
+            "path": "/Radar PMIC/",
+            "uuid_path": "/aa2ac780-2721-4c8d-9e61-36df9bfa9575/bd81ccb4-884d-414b-a160-7550e1f2d37c",
+            "violations": []
+        },
+        {
+            "path": "/Radar and boot/",
+            "uuid_path": "/aa2ac780-2721-4c8d-9e61-36df9bfa9575/80a48cf9-6292-4722-8784-3d36a2350027",
+            "violations": []
+        },
+        {
+            "path": "/Carrier interfaces/",
+            "uuid_path": "/aa2ac780-2721-4c8d-9e61-36df9bfa9575/8c2a4010-1ee1-4cef-80cf-7962bd88f0b5",
+            "violations": []
+        }
+    ],
+    "source": "IWR-AOP-MODULE.kicad_sch"
+}

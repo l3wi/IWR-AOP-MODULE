@@ -1,0 +1,78 @@
+(footprint "AOP_ALP180_DieThermalPad"
+	(version 20241229)
+	(generator "pcbnew")
+	(layer "F.Cu")
+	(descr "Board-only exposed GND thermal pad under the IWR6843AOP (ALP0180A) under-mounted die, same outline on F.Cu and B.Cu, solder mask open, no paste. Origin = package centre; place at U300's position and rotation. Die per SWRS237C p.84: 7.1 mm along the column axis, 0.37 mm toward column 1 (local -X), 6.94 mm along the row axis (F.Fab outline). Pad = die cut back to local X >= -2.59 with a 2.01 mm chamfer at local (-X,-Y) so existing U300 escape copper keeps >= 0.25 mm. TI practice: SWRA672 section 5, Figs 17-20.")
+	(tags "IWR6843AOP ALP0180A AOP thermal pad exposed copper")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "AOP_ALP180_DieThermalPad"
+		(at 0 5.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -3.92 -3.47)
+		(end 3.18 3.47)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(pad "1" smd custom
+		(at 0 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 3.18 -3.47) (xy 3.18 3.47) (xy -2.59 3.47) (xy -2.59 -1.46) (xy -0.58 -3.47)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 0)
+		(size 0.5 0.5)
+		(layers "B.Cu" "B.Mask")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 3.18 -3.47) (xy 3.18 3.47) (xy -2.59 3.47) (xy -2.59 -1.46) (xy -0.58 -3.47)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+)

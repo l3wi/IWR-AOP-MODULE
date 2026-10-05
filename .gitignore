@@ -1,0 +1,19 @@
+# Build output: renders, exports, scratch
+build/
+
+# KiCad local state, locks, autosaves, backups, caches
+*.kicad_prl
+*.lck
+~*.kicad_*
+_autosave-*
+*-backups/
+backups/
+fp-info-cache
+
+# Editor and OS
+.history/
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]

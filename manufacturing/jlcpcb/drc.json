@@ -1,0 +1,774 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-05T14:28:31",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "key": "silk_edge_clearance"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [],
+    "source": "IWR-AOP-MODULE.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Hole clearance violation (rule 'SMD pad no unfilled via' clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad [<no net>] of U600 on B.Paste",
+                    "pos": {
+                        "x": 174.345,
+                        "y": 119.4
+                    },
+                    "uuid": "0cbcf1aa-a206-4261-b2b7-ceff7a8e9c02"
+                },
+                {
+                    "description": "Via [3V3_R] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 174.345,
+                        "y": 119.4
+                    },
+                    "uuid": "da1cd6de-dfb2-4b5e-8827-6733a84029b7"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (rule 'SMD pad no unfilled via' clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad [<no net>] of U600 on B.Paste",
+                    "pos": {
+                        "x": 173.1225,
+                        "y": 117.575
+                    },
+                    "uuid": "298f6299-46ef-485b-81c0-af3dad8802b8"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.5325,
+                        "y": 117.575
+                    },
+                    "uuid": "233e2b05-dc3d-4a94-a0aa-99baba4ef413"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (rule 'SMD pad no unfilled via' clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad [<no net>] of U600 on B.Paste",
+                    "pos": {
+                        "x": 173.1225,
+                        "y": 117.575
+                    },
+                    "uuid": "298f6299-46ef-485b-81c0-af3dad8802b8"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 173.45,
+                        "y": 117.575
+                    },
+                    "uuid": "ab0d2d3d-d87e-4c34-8a0b-51d680a2d1c6"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (rule 'SMD pad no unfilled via' clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad [<no net>] of U600 on B.Paste",
+                    "pos": {
+                        "x": 171.9425,
+                        "y": 117.575
+                    },
+                    "uuid": "179bb427-6f28-4e89-ab02-5baa5c1afa4a"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.5325,
+                        "y": 117.575
+                    },
+                    "uuid": "233e2b05-dc3d-4a94-a0aa-99baba4ef413"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (rule 'SMD pad no unfilled via' clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad [<no net>] of U600 on B.Paste",
+                    "pos": {
+                        "x": 171.9425,
+                        "y": 117.575
+                    },
+                    "uuid": "179bb427-6f28-4e89-ab02-5baa5c1afa4a"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 171.6,
+                        "y": 117.575
+                    },
+                    "uuid": "f078dbb5-0f3c-4582-a3d3-98769f6b5330"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (rule 'SMD pad no unfilled via' clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad [<no net>] of U600 on B.Paste",
+                    "pos": {
+                        "x": 170.72,
+                        "y": 119.4
+                    },
+                    "uuid": "1bd8a2f1-3265-4459-a14d-fb499e098a4d"
+                },
+                {
+                    "description": "Via [1V2_R] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 170.72,
+                        "y": 119.4
+                    },
+                    "uuid": "08fef58d-7d73-40fb-bdb5-2424750cfae8"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (rule 'SMD pad no unfilled via' clearance 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad [<no net>] of U600 on B.Paste",
+                    "pos": {
+                        "x": 170.72,
+                        "y": 115.75
+                    },
+                    "uuid": "122c0f44-54a3-45ca-a4ea-5b268f8c9f28"
+                },
+                {
+                    "description": "Via [1V8_R] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 170.72,
+                        "y": 115.57
+                    },
+                    "uuid": "df6e1ec9-f3ad-454d-a6a7-2da7d20dc2b1"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'DEBUG' on B.Silkscreen",
+                    "pos": {
+                        "x": 175.4,
+                        "y": 99.75
+                    },
+                    "uuid": "35514c73-d225-4038-b603-89bbaecbf403"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Value field of TP611 (PMIC_ENABLE)",
+                    "pos": {
+                        "x": 180.4,
+                        "y": 115.55
+                    },
+                    "uuid": "54fdc107-c7f9-49b6-a1c6-b0efac47b27a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Value field of TP603 (AOP_NRESET)",
+                    "pos": {
+                        "x": 165.15,
+                        "y": 121.35
+                    },
+                    "uuid": "cd8193fa-4451-44e6-af8a-5354e89bbe6a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Value field of TP602 (PMIC_INT_N)",
+                    "pos": {
+                        "x": 165.075,
+                        "y": 116.8
+                    },
+                    "uuid": "bfa5558c-27dc-40e6-851d-a67d26f85cf8"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Value field of TP610 (USB_VBUS)",
+                    "pos": {
+                        "x": 181.875,
+                        "y": 120.175
+                    },
+                    "uuid": "7ddba9ac-1d83-4c76-a84f-66c11dce423b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Value field of TP608 (1V0_RAW)",
+                    "pos": {
+                        "x": 176.8,
+                        "y": 113.575
+                    },
+                    "uuid": "fba1a495-f4b7-46c2-846e-8dc940bf3c78"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Value field of TP605 (1V0_R)",
+                    "pos": {
+                        "x": 162.5,
+                        "y": 111.325
+                    },
+                    "uuid": "859120ca-9620-4a03-a3b0-3ed09e1af78b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Value field of TP607 (1V2_R)",
+                    "pos": {
+                        "x": 159.25,
+                        "y": 121.275
+                    },
+                    "uuid": "544c90d0-745a-421c-b70e-7e9d7c566c8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Value field of TP604 (SYS_5V)",
+                    "pos": {
+                        "x": 186.925,
+                        "y": 119.75
+                    },
+                    "uuid": "75597f1f-537f-48e2-ba05-5a5e83a7e15f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Value field of TP606 (1V8_R)",
+                    "pos": {
+                        "x": 159.225,
+                        "y": 115.625
+                    },
+                    "uuid": "ebee1a86-1a5c-4129-a5a6-193c663a2686"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Value field of TP609 (1V8_RAW)",
+                    "pos": {
+                        "x": 164.625,
+                        "y": 109.3
+                    },
+                    "uuid": "cd14e46c-72c8-431c-ae1a-0f3fcee0bcb4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Value field of TP612 (GND)",
+                    "pos": {
+                        "x": 181.95,
+                        "y": 124.2
+                    },
+                    "uuid": "73e862ba-73e3-4720-a0d6-281bf428bc04"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of SW401 on F.Silkscreen",
+                    "pos": {
+                        "x": 179.625,
+                        "y": 96.95
+                    },
+                    "uuid": "02ca81e9-e0a0-4ac5-ac5a-62a74d436a52"
+                },
+                {
+                    "description": "Via [3V3_R] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 179.7,
+                        "y": 97.05
+                    },
+                    "uuid": "a901ed18-0cae-4042-bc52-2db7f5826602"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of SW401 on F.Silkscreen",
+                    "pos": {
+                        "x": 175.625,
+                        "y": 100.7
+                    },
+                    "uuid": "adeecb3e-d404-42ef-a9f7-fc63022614ba"
+                },
+                {
+                    "description": "Via [AOP_UART_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 175.75,
+                        "y": 99.05
+                    },
+                    "uuid": "e44e8013-2817-4b4f-8353-b0682486d58c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of SW401 on F.Silkscreen",
+                    "pos": {
+                        "x": 179.625,
+                        "y": 102.45
+                    },
+                    "uuid": "fdda73fa-2aef-4a71-84c6-e757707b6fa1"
+                },
+                {
+                    "description": "Via [/Radar and boot/AOP_JTAG_TMS] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 179.7,
+                        "y": 102.7
+                    },
+                    "uuid": "a591b219-20a5-4106-849e-fd5ad5a6520c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of SW401 on F.Silkscreen",
+                    "pos": {
+                        "x": 180.075,
+                        "y": 97.4
+                    },
+                    "uuid": "724f48ea-0038-4030-8fce-af1c1a4c85ba"
+                },
+                {
+                    "description": "Via [3V3_R] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 179.7,
+                        "y": 97.05
+                    },
+                    "uuid": "a901ed18-0cae-4042-bc52-2db7f5826602"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of SW401 on F.Silkscreen",
+                    "pos": {
+                        "x": 180.075,
+                        "y": 102.0
+                    },
+                    "uuid": "af1bb960-3815-4a66-a2f9-8d43273b19e0"
+                },
+                {
+                    "description": "Via [/Radar and boot/AOP_JTAG_TMS] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 179.7,
+                        "y": 102.7
+                    },
+                    "uuid": "a591b219-20a5-4106-849e-fd5ad5a6520c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Value field of TP611 (PMIC_ENABLE)",
+                    "pos": {
+                        "x": 180.4,
+                        "y": 115.55
+                    },
+                    "uuid": "54fdc107-c7f9-49b6-a1c6-b0efac47b27a"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 179.225,
+                        "y": 115.525
+                    },
+                    "uuid": "cdf89861-ad32-4dff-a0db-22025b9a378a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Value field of TP610 (USB_VBUS)",
+                    "pos": {
+                        "x": 181.875,
+                        "y": 120.175
+                    },
+                    "uuid": "7ddba9ac-1d83-4c76-a84f-66c11dce423b"
+                },
+                {
+                    "description": "Via [USB_VBUS] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 180.35,
+                        "y": 120.675
+                    },
+                    "uuid": "1fa5f450-8181-42dd-bb23-d024c30ed692"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Value field of TP603 (AOP_NRESET)",
+                    "pos": {
+                        "x": 165.15,
+                        "y": 121.35
+                    },
+                    "uuid": "cd8193fa-4451-44e6-af8a-5354e89bbe6a"
+                },
+                {
+                    "description": "Via [/Radar and boot/AOP_SOP0] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 162.9,
+                        "y": 121.375
+                    },
+                    "uuid": "9ea46226-2fed-457e-908e-3040d90c0677"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Value field of TP605 (1V0_R)",
+                    "pos": {
+                        "x": 162.5,
+                        "y": 111.325
+                    },
+                    "uuid": "859120ca-9620-4a03-a3b0-3ed09e1af78b"
+                },
+                {
+                    "description": "Via [1V0_R] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 161.775,
+                        "y": 110.95
+                    },
+                    "uuid": "8646eb8d-41af-4b08-a305-74f030a0dba6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J301 on B.Silkscreen",
+                    "pos": {
+                        "x": 175.905,
+                        "y": 96.45
+                    },
+                    "uuid": "5bdaa16a-093c-4cd6-9aa7-85ca49786a3a"
+                },
+                {
+                    "description": "Via [AOP_UART_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 175.75,
+                        "y": 99.05
+                    },
+                    "uuid": "e44e8013-2817-4b4f-8353-b0682486d58c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J400 on B.Silkscreen",
+                    "pos": {
+                        "x": 184.403719,
+                        "y": 103.525826
+                    },
+                    "uuid": "56377158-720d-47e5-a9c7-03ff5a999973"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 184.4,
+                        "y": 103.625
+                    },
+                    "uuid": "4179b9f4-c379-4e76-a805-6cb72cbcd985"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J400 on B.Silkscreen",
+                    "pos": {
+                        "x": 189.403719,
+                        "y": 103.525826
+                    },
+                    "uuid": "37d5a5a2-78d1-41bc-89e9-cc44a160e1f6"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 184.4,
+                        "y": 103.625
+                    },
+                    "uuid": "4179b9f4-c379-4e76-a805-6cb72cbcd985"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of C601 on B.Silkscreen",
+                    "pos": {
+                        "x": 168.043751,
+                        "y": 118.614999
+                    },
+                    "uuid": "1924adfc-bb98-4e8a-a340-a8ab4286bb18"
+                },
+                {
+                    "description": "Via [AOP_SYNC_IN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 167.3,
+                        "y": 118.420201
+                    },
+                    "uuid": "215597ad-ce5a-473b-b89e-c0770ffc5070"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of C302 on B.Silkscreen",
+                    "pos": {
+                        "x": 142.635,
+                        "y": 123.847836
+                    },
+                    "uuid": "bc9b7a83-a205-453f-86da-e3e891c74712"
+                },
+                {
+                    "description": "Via [1V2_R] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.695872,
+                        "y": 123.779597
+                    },
+                    "uuid": "1428411d-389f-44ad-964a-43621bd5c866"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of U200 on B.Silkscreen",
+                    "pos": {
+                        "x": 130.285,
+                        "y": 112.240001
+                    },
+                    "uuid": "b13f768f-8c97-4ba5-b361-45be3fd48016"
+                },
+                {
+                    "description": "Via [AOP_UART_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.425,
+                        "y": 112.325
+                    },
+                    "uuid": "4d6f929d-e54d-43b8-8c68-aeb3ec42f349"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of U200 on B.Silkscreen",
+                    "pos": {
+                        "x": 130.285,
+                        "y": 112.715001
+                    },
+                    "uuid": "e863bb1d-dd50-49c4-8803-d01cba4610d5"
+                },
+                {
+                    "description": "Via [AOP_UART_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.425,
+                        "y": 112.325
+                    },
+                    "uuid": "4d6f929d-e54d-43b8-8c68-aeb3ec42f349"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of U301 on B.Silkscreen",
+                    "pos": {
+                        "x": 128.915,
+                        "y": 120.04
+                    },
+                    "uuid": "d8f22039-bce0-42d3-a022-54ca414a5b73"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 129.15,
+                        "y": 120.6
+                    },
+                    "uuid": "cd01a8a5-7014-441c-b792-d7d9586ad81a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

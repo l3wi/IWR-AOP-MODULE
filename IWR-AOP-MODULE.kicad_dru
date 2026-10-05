@@ -1,0 +1,69 @@
+(version 1)
+
+# IWR-AOP-MODULE custom design rules (JLCPCB six-layer process).
+# Stack, via process and the reasoning behind each rule: docs/STG-HW-SPEC-004_IWR-AOP-MODULE.md.
+#
+# Process floors used here: 0.20 mm minimum drilled hole, 0.35 mm minimum via
+# copper, 0.05 mm minimum annulus, 0.09 mm trace/space, 0.10 mm to BGA pads.
+# Every via is epoxy filled and copper capped (IPC-4761 Type VII, JLC POFV),
+# which is what permits via-in-pad at U300 and the rear radar passives.
+# The 0.20-0.50 mm drilled-hole window is the fill process's accepted range.
+
+(rule "Normal routing width"
+  (constraint track_width (min 0.15mm)))
+
+# 0.25 mm hole-to-copper clearance generally; 0.15 mm inside the BGA escape.
+(rule "Normal hole to copper clearance"
+  (constraint hole_clearance (min 0.25mm)))
+
+(rule "JLC 6L BGA escape width"
+  (condition "A.intersectsCourtyard('U300')")
+  (constraint track_width (min 0.09mm) (opt 0.15mm)))
+
+# With 0.25 mm hole clearance a 0.35/0.20 mm via would force a 0.175 mm copper
+# gap; at 0.15 mm the 0.09 mm copper rule is what binds in the escape.
+(rule "JLC 6L BGA escape copper clearance"
+  (condition "A.intersectsCourtyard('U300') && B.intersectsCourtyard('U300')")
+  (constraint clearance (min 0.09mm))
+  (constraint hole_clearance (min 0.15mm)))
+
+# Filled/capped via geometry. A rule cannot see whether a via is filled; the
+# board's via flags (filling yes, capping yes) and the fab note carry that.
+(rule "JLC 6L filled and capped via geometry"
+  (condition "A.Type == 'Via'")
+  (constraint via_diameter (min 0.35mm))
+  (constraint hole_size (min 0.20mm) (max 0.50mm))
+  (constraint annular_width (min 0.05mm)))
+
+# Pad-to-track/via at U300 needs 0.10 mm, not the 0.09 mm escape trace gap.
+# 0.15 mm different-net hole-to-pad = 0.10 mm copper + 0.05 mm via annulus.
+(rule "JLC 6L BGA pad clearance"
+  (condition "(A.Type == 'Pad' && A.Reference == 'U300') || (B.Type == 'Pad' && B.Reference == 'U300')")
+  (constraint clearance (min 0.10mm))
+  (constraint hole_clearance (min 0.15mm)))
+
+# Keep different-net drill apertures clear of SMD lands.
+(rule "SMD pad no unfilled via"
+  (condition "(A.Type == 'Via' && B.Pad_Type == 'SMD') || (B.Type == 'Via' && A.Pad_Type == 'SMD')")
+  (constraint physical_hole_clearance (min 0.10mm)))
+
+# Same-net via-in-pad is allowed because every via is filled and capped.
+(rule "Epoxy filled and copper capped same-net via in pad"
+  (condition "A.NetName == B.NetName && ((A.Type == 'Via' && B.Pad_Type == 'SMD') || (B.Type == 'Via' && A.Pad_Type == 'SMD'))")
+  (constraint physical_hole_clearance (min 0mm)))
+
+# TI SWRZ092B PACKAGE#02 puts the board edge <0.3 mm from the AOP package at
+# both E-plane gaps (here 0.20 mm). That is package-to-edge, not copper: U300's
+# outer ball lands are 0.70 mm from the edge, so the board-wide 0.5 mm
+# copper-to-edge rule already holds. This relaxation to the JLC 0.2 mm floor
+# applies only inside U300's two E-plane keepouts.
+(rule "AOP E-plane cut edge clearance"
+  (condition "A.insideArea('IWR6843AOP_EPlane_Column1') || A.insideArea('IWR6843AOP_EPlane_Column18') || B.insideArea('IWR6843AOP_EPlane_Column1') || B.insideArea('IWR6843AOP_EPlane_Column18')")
+  (constraint edge_clearance (min 0.2mm)))
+
+# The GCT USB4105 land pattern puts its shell NPTH posts 0.175 mm from the
+# adjacent VBUS/GND lands; allow the connector's own geometry.
+(rule "USB-C shell post clearance"
+  (condition "A.intersectsCourtyard('J200') && B.intersectsCourtyard('J200')")
+  (constraint clearance (min 0.15mm))
+  (constraint hole_clearance (min 0.15mm)))

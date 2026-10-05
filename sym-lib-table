@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IWR-AOP-MODULE")(type "KiCad")(uri "${KIPRJMOD}/libraries/IWR-AOP-MODULE.kicad_sym")(options "")(descr "IWR-AOP-MODULE project symbols"))
+)

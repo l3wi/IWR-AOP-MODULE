@@ -1,0 +1,146 @@
+{
+  "board_mm": [
+    85.65,
+    33.75
+  ],
+  "copper_layers": 6,
+  "thickness_mm": 1.6,
+  "vias": 203,
+  "min_via_drill_mm": 0.25,
+  "min_track_mm": 0.15,
+  "bom_lines": 39,
+  "bom_parts": 141,
+  "placements_top": 12,
+  "placements_bottom": 129,
+  "unsourced_bom_lines": [],
+  "dropped_from_bom_no_footprint": [],
+  "merged_by_part_number": {
+    "C1525": [
+      "100nF",
+      "100nF 16V"
+    ],
+    "C86038": [
+      "10uF X7R 10V 10%",
+      "10uF 10V"
+    ],
+    "C318884": [
+      "BOOT",
+      "RESET"
+    ]
+  },
+  "jlc_rotation_by_part": {
+    "D200": {
+      "lcsc": "C20615824",
+      "jlc_footprint": "SOT-23-3_L2.9-W1.5-P1.90-LS2.6-BR",
+      "matched_by": "pin numbers",
+      "side": "B",
+      "cpl_rotation_deg": -90
+    },
+    "D201": {
+      "lcsc": "C20615824",
+      "jlc_footprint": "SOT-23-3_L2.9-W1.5-P1.90-LS2.6-BR",
+      "matched_by": "pin numbers",
+      "side": "B",
+      "cpl_rotation_deg": 90
+    },
+    "J200": {
+      "lcsc": "C3020560",
+      "jlc_footprint": "TYPE-C-SMD_SBC-160S1A-20-S412",
+      "matched_by": "pin numbers",
+      "side": "B",
+      "cpl_rotation_deg": 0
+    },
+    "J301": {
+      "lcsc": "C2962219",
+      "jlc_footprint": "IDC-SMD_10P-P1.27_X1270WVS-2X05B-6TV01",
+      "matched_by": "pin numbers",
+      "side": "B",
+      "cpl_rotation_deg": 180
+    },
+    "J400": {
+      "lcsc": "C3975151",
+      "jlc_footprint": "HDR-SMD_12P-P2.54-V-F-R2-C6-S7.0_H8.5",
+      "matched_by": "pin numbers",
+      "side": "B",
+      "cpl_rotation_deg": -90
+    },
+    "J401": {
+      "lcsc": "C3975150",
+      "jlc_footprint": "HDR-SMD_10P-P2.54-V-F-R2-C5-LS7.1-1",
+      "matched_by": "land pattern (symmetric at [90, 270]) + pin 1",
+      "side": "B",
+      "cpl_rotation_deg": -90
+    },
+    "Q402": {
+      "lcsc": "C20526",
+      "jlc_footprint": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+      "matched_by": "pin numbers",
+      "side": "T",
+      "cpl_rotation_deg": 0
+    },
+    "SW400": {
+      "lcsc": "C318884",
+      "jlc_footprint": "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5",
+      "matched_by": "land pattern (symmetric at [0, 180]) + pin 1",
+      "side": "T",
+      "cpl_rotation_deg": 180
+    },
+    "SW401": {
+      "lcsc": "C318884",
+      "jlc_footprint": "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5",
+      "matched_by": "land pattern (symmetric at [0, 180]) + pin 1",
+      "side": "T",
+      "cpl_rotation_deg": 180
+    },
+    "U117": {
+      "lcsc": "C3235556",
+      "jlc_footprint": "SOT-583-8_L2.1-W1.2-P0.50-LS1.6-BL",
+      "matched_by": "pin numbers",
+      "side": "B",
+      "cpl_rotation_deg": 90
+    },
+    "U200": {
+      "lcsc": "C109102",
+      "jlc_footprint": "QFN-24_L4.0-W4.0-P0.50-BL-EP2.6",
+      "matched_by": "pin numbers",
+      "side": "B",
+      "cpl_rotation_deg": 90
+    },
+    "U300": {
+      "lcsc": "C2871887",
+      "jlc_footprint": "FCBGA-180_L15.0-W15.0-P0.80-BL_TI_ALP",
+      "matched_by": "pin numbers",
+      "side": "T",
+      "cpl_rotation_deg": 0
+    },
+    "U301": {
+      "lcsc": "C190802",
+      "jlc_footprint": "SOP-8_L5.3-W5.3-P1.27-LS8.0-BL",
+      "matched_by": "pin numbers",
+      "side": "B",
+      "cpl_rotation_deg": 180
+    },
+    "U600": {
+      "lcsc": "C701982",
+      "jlc_footprint": "POWERVFQFN-26_L4.0-W4.5-P0.50-BL-EP_LP87524XXX",
+      "matched_by": "pin numbers",
+      "side": "B",
+      "cpl_rotation_deg": -90
+    },
+    "Y300": {
+      "lcsc": "C18214314",
+      "jlc_footprint": "CRYSTAL-SMD_4P-L3.2-W2.5-BL",
+      "matched_by": "pin numbers",
+      "side": "B",
+      "cpl_rotation_deg": 90
+    }
+  },
+  "erc_violations": 0,
+  "drc_violations_by_type": {
+    "error:hole_clearance": 7,
+    "warning:text_height": 12,
+    "warning:silk_over_copper": 17
+  },
+  "drc_unconnected": 0,
+  "drc_schematic_parity": 0
+}

@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 591.5012185215273" role="img" aria-labelledby="title desc">
+<title id="title">IWR-AOP-MODULE back view pinout</title>
+<desc id="desc">Generated from IWR-AOP-MODULE.kicad_pcb. Back face viewed directly; X is mirrored from PCB coordinates. All dimensions in millimetres.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M 0 0 L 7 3.5 L 0 7 Z" fill="#526873"/></marker></defs>
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif;fill:#20343c} .dim{stroke:#526873;stroke-width:1.3;fill:none} .ext{stroke:#8b9aa1;stroke-width:1;fill:none} .white{fill:#eff8f3}</style>
+<rect width="1500" height="591.5012185215273" fill="#fafcfc"/>
+<text x="1476" y="40" style="fill:#20343c" font-size="20" text-anchor="end" font-weight="400" >3.3 V logic, not 5 V tolerant</text>
+<path d="M1253.954,129.509 A37.509,37.509 0 0 0 1216.445,92 L1051.016,92 L850.555,307.854 L647.676,307.854 L447.215,92 L281.786,92 A37.509,37.509 0 0 0 244.277,129.509 L244.277,451.992 A37.509,37.509 0 0 0 281.786,489.501 L1216.445,489.501 A37.509,37.509 0 0 0 1253.954,451.992 L1253.954,129.509 Z" fill="#145444" stroke="#0c3e32" stroke-width="2"/>
+<rect x="660.651" y="310.213" width="176.929" height="176.929" rx="2" fill="#246653" stroke="#9cc3ac" stroke-dasharray="5 4"/>
+<text x="749.115" y="334.213" style="fill:#d7e8dc" font-size="15" text-anchor="middle" font-weight="400" >U300 · FRONT</text>
+<rect x="255.188" y="209.835" width="29.488" height="12.031" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 269.932 215.85)"/>
+<rect x="321.241" y="209.835" width="29.488" height="12.031" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 335.985 215.85)"/>
+<rect x="255.188" y="239.795" width="29.488" height="12.031" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 269.932 245.81)"/>
+<rect x="321.241" y="239.795" width="29.488" height="12.031" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 335.985 245.81)"/>
+<rect x="255.188" y="269.755" width="29.488" height="12.031" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 269.932 275.77)"/>
+<rect x="321.241" y="269.755" width="29.488" height="12.031" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 335.985 275.77)"/>
+<rect x="255.188" y="299.715" width="29.488" height="12.031" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 269.932 305.731)"/>
+<rect x="321.241" y="299.715" width="29.488" height="12.031" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 335.985 305.731)"/>
+<rect x="255.188" y="329.675" width="29.488" height="12.031" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 269.932 335.691)"/>
+<rect x="321.241" y="329.675" width="29.488" height="12.031" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 335.985 335.691)"/>
+<rect x="255.188" y="359.635" width="29.488" height="12.031" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 269.932 365.651)"/>
+<rect x="321.241" y="359.635" width="29.488" height="12.031" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 335.985 365.651)"/>
+<rect x="273.47" y="197.922" width="58.976" height="185.658" rx="3" fill="#192a2b" stroke="#738b82" />
+<rect x="284.779" y="212.65" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="314.739" y="212.65" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="284.779" y="242.61" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="314.739" y="242.61" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="284.779" y="272.57" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="314.739" y="272.57" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="284.779" y="302.531" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="314.739" y="302.531" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="284.779" y="332.491" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="314.739" y="332.491" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="284.779" y="362.451" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="314.739" y="362.451" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<text x="302.959" y="295.751" style="fill:#e5eee6" font-size="14" text-anchor="middle" font-weight="400" transform="rotate(-90 302.959 290.751)">J400</text>
+<circle cx="287.979" cy="215.85" r="5" fill="none" stroke="#fff3b2" stroke-width="2"/>
+<text x="287.979" y="206.85" style="fill:#fff3b2" font-size="13" text-anchor="middle" font-weight="700" >1</text>
+<rect x="1148.681" y="226.112" width="23.591" height="9.436" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1160.476 230.83)"/>
+<rect x="1218.273" y="226.112" width="23.591" height="9.436" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1230.068 230.83)"/>
+<rect x="1148.681" y="256.072" width="23.591" height="9.436" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1160.476 260.79)"/>
+<rect x="1218.273" y="256.072" width="23.591" height="9.436" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1230.068 260.79)"/>
+<rect x="1148.681" y="286.032" width="23.591" height="9.436" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1160.476 290.751)"/>
+<rect x="1218.273" y="286.032" width="23.591" height="9.436" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1230.068 290.751)"/>
+<rect x="1148.681" y="315.992" width="23.591" height="9.436" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1160.476 320.711)"/>
+<rect x="1218.273" y="315.992" width="23.591" height="9.436" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1230.068 320.711)"/>
+<rect x="1148.681" y="345.952" width="23.591" height="9.436" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1160.476 350.671)"/>
+<rect x="1218.273" y="345.952" width="23.591" height="9.436" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1230.068 350.671)"/>
+<rect x="1165.784" y="212.902" width="58.976" height="155.698" rx="3" fill="#192a2b" stroke="#738b82" />
+<rect x="1177.092" y="227.63" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="1207.052" y="227.63" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="1177.092" y="257.59" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="1207.052" y="257.59" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="1177.092" y="287.551" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="1207.052" y="287.551" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="1177.092" y="317.511" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="1207.052" y="317.511" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="1177.092" y="347.471" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<rect x="1207.052" y="347.471" width="6.4" height="6.4" rx="1" fill="#d8b663" stroke="none" />
+<text x="1195.272" y="295.751" style="fill:#e5eee6" font-size="14" text-anchor="middle" font-weight="400" transform="rotate(-90 1195.272 290.751)">J401</text>
+<circle cx="1180.292" cy="230.83" r="5" fill="none" stroke="#fff3b2" stroke-width="2"/>
+<text x="1180.292" y="221.83" style="fill:#fff3b2" font-size="13" text-anchor="middle" font-weight="700" >1</text>
+<rect x="383.505" y="107.383" width="8.964" height="28.309" rx="1" fill="#d8b663" stroke="none" transform="rotate(0 387.987 121.537)"/>
+<rect x="383.505" y="153.385" width="8.964" height="28.309" rx="1" fill="#d8b663" stroke="none" transform="rotate(0 387.987 167.539)"/>
+<rect x="368.525" y="107.383" width="8.964" height="28.309" rx="1" fill="#d8b663" stroke="none" transform="rotate(0 373.007 121.537)"/>
+<rect x="368.525" y="153.385" width="8.964" height="28.309" rx="1" fill="#d8b663" stroke="none" transform="rotate(0 373.007 167.539)"/>
+<rect x="353.545" y="107.383" width="8.964" height="28.309" rx="1" fill="#d8b663" stroke="none" transform="rotate(0 358.027 121.537)"/>
+<rect x="353.545" y="153.385" width="8.964" height="28.309" rx="1" fill="#d8b663" stroke="none" transform="rotate(0 358.027 167.539)"/>
+<rect x="338.565" y="107.383" width="8.964" height="28.309" rx="1" fill="#d8b663" stroke="none" transform="rotate(0 343.047 121.537)"/>
+<rect x="338.565" y="153.385" width="8.964" height="28.309" rx="1" fill="#d8b663" stroke="none" transform="rotate(0 343.047 167.539)"/>
+<rect x="323.585" y="107.383" width="8.964" height="28.309" rx="1" fill="#d8b663" stroke="none" transform="rotate(0 328.067 121.537)"/>
+<rect x="323.585" y="153.385" width="8.964" height="28.309" rx="1" fill="#d8b663" stroke="none" transform="rotate(0 328.067 167.539)"/>
+<rect x="283.422" y="114.46" width="149.21" height="60.156" rx="3" fill="#192a2b" stroke="#738b82" />
+<text x="358.027" y="149.538" style="fill:#e5eee6" font-size="14" text-anchor="middle" font-weight="400" >J301</text>
+<circle cx="387.987" cy="121.537" r="5" fill="none" stroke="#fff3b2" stroke-width="2"/>
+<text x="387.987" y="112.537" style="fill:#fff3b2" font-size="13" text-anchor="middle" font-weight="700" >1</text>
+<rect x="1036.316" y="405.258" width="7.077" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1039.854 412.04)"/>
+<rect x="1045.752" y="405.258" width="7.077" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1049.29 412.04)"/>
+<rect x="1061.086" y="405.258" width="3.539" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1062.855 412.04)"/>
+<rect x="1072.881" y="405.258" width="3.539" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1074.65 412.04)"/>
+<rect x="1078.779" y="405.258" width="3.539" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1080.548 412.04)"/>
+<rect x="1090.574" y="405.258" width="3.539" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1092.343 412.04)"/>
+<rect x="1102.369" y="405.258" width="7.077" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1105.908 412.04)"/>
+<rect x="1111.805" y="405.258" width="7.077" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1115.344 412.04)"/>
+<rect x="1111.805" y="405.258" width="7.077" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1115.344 412.04)"/>
+<rect x="1102.369" y="405.258" width="7.077" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1105.908 412.04)"/>
+<rect x="1096.471" y="405.258" width="3.539" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1098.241 412.04)"/>
+<rect x="1084.676" y="405.258" width="3.539" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1086.446 412.04)"/>
+<rect x="1066.983" y="405.258" width="3.539" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1068.753 412.04)"/>
+<rect x="1055.188" y="405.258" width="3.539" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1056.957 412.04)"/>
+<rect x="1045.752" y="405.258" width="7.077" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1049.29 412.04)"/>
+<rect x="1036.316" y="405.258" width="7.077" height="13.565" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1039.854 412.04)"/>
+<rect x="1020.746" y="457.511" width="11.795" height="21.232" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1026.643 468.127)"/>
+<rect x="1020.746" y="406.437" width="11.795" height="24.77" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1026.643 418.822)"/>
+<rect x="1122.657" y="457.511" width="11.795" height="21.232" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1128.555 468.127)"/>
+<rect x="1122.657" y="406.437" width="11.795" height="24.77" rx="1" fill="#d8b663" stroke="none" transform="rotate(180 1128.555 418.822)"/>
+<rect x="1024.874" y="412.099" width="105.45" height="86.695" rx="3" fill="#55656b" stroke="#738b82" />
+<rect x="1031.874" y="490.795" width="91.45" height="5" rx="2" fill="#15282d" stroke="none" />
+<text x="1077.599" y="459.447" style="fill:#ffffff" font-size="14" text-anchor="middle" font-weight="400" >USB-C</text>
+<circle cx="1195.272" cy="150.681" r="20.872" fill="#a5bbad" stroke="none" />
+<circle cx="1195.272" cy="150.681" r="18.872" fill="#fafcfc" stroke="#0c3e32" />
+<circle cx="302.959" cy="430.82" r="20.872" fill="#a5bbad" stroke="none" />
+<circle cx="302.959" cy="430.82" r="18.872" fill="#fafcfc" stroke="#0c3e32" />
+<circle cx="1195.272" cy="430.82" r="20.872" fill="#a5bbad" stroke="none" />
+<circle cx="1195.272" cy="430.82" r="18.872" fill="#fafcfc" stroke="#0c3e32" />
+<text x="358.027" y="64.33" style="fill:#20343c" font-size="18" text-anchor="middle" font-weight="600" >Cortex-10 JTAG · 1.27 mm</text>
+<path d="M269.932,215.85 L251.649,215.85" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="24" y="202.581" width="227.649" height="26.539" rx="6" fill="#a9d5ef" stroke="none" />
+<text x="35.206" y="223.918" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >1  UART TX</text>
+<circle cx="269.932" cy="215.85" r="2.5" fill="#a9d5ef" stroke="#234a40" />
+<path d="M335.985,215.85 L354.268,215.85" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="354.268" y="202.581" width="227.649" height="26.539" rx="6" fill="#a9d5ef" stroke="none" />
+<text x="365.474" y="223.918" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >2  UART RX</text>
+<circle cx="335.985" cy="215.85" r="2.5" fill="#a9d5ef" stroke="#234a40" />
+<path d="M269.932,245.81 L251.649,245.81" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="24" y="232.541" width="227.649" height="26.539" rx="6" fill="#f2d58d" stroke="none" />
+<text x="35.206" y="253.878" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >3  SYNC IN</text>
+<circle cx="269.932" cy="245.81" r="2.5" fill="#f2d58d" stroke="#234a40" />
+<path d="M335.985,245.81 L354.268,245.81" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="354.268" y="232.541" width="227.649" height="26.539" rx="6" fill="#d5dbe1" stroke="none" />
+<text x="365.474" y="253.878" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >4  GND</text>
+<circle cx="335.985" cy="245.81" r="2.5" fill="#d5dbe1" stroke="#234a40" />
+<path d="M269.932,275.77 L251.649,275.77" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="24" y="262.501" width="227.649" height="26.539" rx="6" fill="#d1b8ea" stroke="none" />
+<text x="35.206" y="283.838" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >5  SOP2</text>
+<circle cx="269.932" cy="275.77" r="2.5" fill="#d1b8ea" stroke="#234a40" />
+<path d="M335.985,275.77 L354.268,275.77" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="354.268" y="262.501" width="227.649" height="26.539" rx="6" fill="#d1b8ea" stroke="none" />
+<text x="365.474" y="283.838" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >6  nERROR</text>
+<circle cx="335.985" cy="275.77" r="2.5" fill="#d1b8ea" stroke="#234a40" />
+<path d="M269.932,305.731 L251.649,305.731" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="24" y="292.461" width="227.649" height="26.539" rx="6" fill="#d1b8ea" stroke="none" />
+<text x="35.206" y="313.799" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >7  DISABLE</text>
+<circle cx="269.932" cy="305.731" r="2.5" fill="#d1b8ea" stroke="#234a40" />
+<path d="M335.985,305.731 L354.268,305.731" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="354.268" y="292.461" width="227.649" height="26.539" rx="6" fill="#d1b8ea" stroke="none" />
+<text x="365.474" y="313.799" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >8  nRESET</text>
+<circle cx="335.985" cy="305.731" r="2.5" fill="#d1b8ea" stroke="#234a40" />
+<path d="M269.932,335.691 L251.649,335.691" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="24" y="322.421" width="227.649" height="26.539" rx="6" fill="#d5dbe1" stroke="none" />
+<text x="35.206" y="343.759" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >9  GND</text>
+<circle cx="269.932" cy="335.691" r="2.5" fill="#d5dbe1" stroke="#234a40" />
+<path d="M335.985,335.691 L354.268,335.691" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="354.268" y="322.421" width="227.649" height="26.539" rx="6" fill="#d5dbe1" stroke="none" />
+<text x="365.474" y="343.759" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >10  GND</text>
+<circle cx="335.985" cy="335.691" r="2.5" fill="#d5dbe1" stroke="#234a40" />
+<path d="M269.932,365.651 L251.649,365.651" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="24" y="352.381" width="227.649" height="26.539" rx="6" fill="#f5aaa0" stroke="none" />
+<text x="35.206" y="373.719" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >11  5V IN</text>
+<circle cx="269.932" cy="365.651" r="2.5" fill="#f5aaa0" stroke="#234a40" />
+<path d="M335.985,365.651 L354.268,365.651" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="354.268" y="352.381" width="227.649" height="26.539" rx="6" fill="#f5aaa0" stroke="none" />
+<text x="365.474" y="373.719" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >12  5V IN</text>
+<circle cx="335.985" cy="365.651" r="2.5" fill="#f5aaa0" stroke="#234a40" />
+<path d="M1160.476,230.83 L1142.193,230.83" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="914.544" y="217.561" width="227.649" height="26.539" rx="6" fill="#a9dfbe" stroke="none" />
+<text x="925.75" y="238.898" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >1  SPI CLK</text>
+<circle cx="1160.476" cy="230.83" r="2.5" fill="#a9dfbe" stroke="#234a40" />
+<path d="M1230.068,230.83 L1248.351,230.83" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="1248.351" y="217.561" width="227.649" height="26.539" rx="6" fill="#d5dbe1" stroke="none" />
+<text x="1259.556" y="238.898" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >2  GND</text>
+<circle cx="1230.068" cy="230.83" r="2.5" fill="#d5dbe1" stroke="#234a40" />
+<path d="M1160.476,260.79 L1142.193,260.79" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="914.544" y="247.521" width="227.649" height="26.539" rx="6" fill="#a9dfbe" stroke="none" />
+<text x="925.75" y="268.858" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >3  SPI MOSI</text>
+<circle cx="1160.476" cy="260.79" r="2.5" fill="#a9dfbe" stroke="#234a40" />
+<path d="M1230.068,260.79 L1248.351,260.79" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="1248.351" y="247.521" width="227.649" height="26.539" rx="6" fill="#a9dfbe" stroke="none" />
+<text x="1259.556" y="268.858" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >4  SPI MISO</text>
+<circle cx="1230.068" cy="260.79" r="2.5" fill="#a9dfbe" stroke="#234a40" />
+<path d="M1160.476,290.751 L1142.193,290.751" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="914.544" y="277.481" width="227.649" height="26.539" rx="6" fill="#a9dfbe" stroke="none" />
+<text x="925.75" y="298.818" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >5  SPI nCS</text>
+<circle cx="1160.476" cy="290.751" r="2.5" fill="#a9dfbe" stroke="#234a40" />
+<path d="M1230.068,290.751 L1248.351,290.751" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="1248.351" y="277.481" width="227.649" height="26.539" rx="6" fill="#d5dbe1" stroke="none" />
+<text x="1259.556" y="298.818" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >6  GND</text>
+<circle cx="1230.068" cy="290.751" r="2.5" fill="#d5dbe1" stroke="#234a40" />
+<path d="M1160.476,320.711 L1142.193,320.711" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="914.544" y="307.441" width="227.649" height="26.539" rx="6" fill="#f2d58d" stroke="none" />
+<text x="925.75" y="328.779" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >7  HOST IRQ</text>
+<circle cx="1160.476" cy="320.711" r="2.5" fill="#f2d58d" stroke="#234a40" />
+<path d="M1230.068,320.711 L1248.351,320.711" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="1248.351" y="307.441" width="227.649" height="26.539" rx="6" fill="#f2d58d" stroke="none" />
+<text x="1259.556" y="328.779" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >8  FRAME START</text>
+<circle cx="1230.068" cy="320.711" r="2.5" fill="#f2d58d" stroke="#234a40" />
+<path d="M1160.476,350.671 L1142.193,350.671" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="914.544" y="337.401" width="227.649" height="26.539" rx="6" fill="#a9d5ef" stroke="none" />
+<text x="925.75" y="358.739" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >9  DATA TX</text>
+<circle cx="1160.476" cy="350.671" r="2.5" fill="#a9d5ef" stroke="#234a40" />
+<path d="M1230.068,350.671 L1248.351,350.671" fill="none" stroke="#b7d2c4" stroke-width="1.2" />
+<rect x="1248.351" y="337.401" width="227.649" height="26.539" rx="6" fill="#d5dbe1" stroke="none" />
+<text x="1259.556" y="358.739" style="fill:#20343c" font-size="22.411047928513405" text-anchor="start" font-weight="500" >10  GND</text>
+<circle cx="1230.068" cy="350.671" r="2.5" fill="#d5dbe1" stroke="#234a40" />
+<rect x="277.5" y="533.501" width="125" height="32" rx="8" fill="#f5aaa0" stroke="none" />
+<text x="340" y="555.501" style="fill:#20343c" font-size="18" text-anchor="middle" font-weight="500" >Power</text>
+<rect x="420.5" y="533.501" width="110" height="32" rx="8" fill="#d5dbe1" stroke="none" />
+<text x="475.5" y="555.501" style="fill:#20343c" font-size="18" text-anchor="middle" font-weight="500" >GND</text>
+<rect x="548.5" y="533.501" width="115" height="32" rx="8" fill="#a9d5ef" stroke="none" />
+<text x="606" y="555.501" style="fill:#20343c" font-size="18" text-anchor="middle" font-weight="500" >UART</text>
+<rect x="681.5" y="533.501" width="105" height="32" rx="8" fill="#a9dfbe" stroke="none" />
+<text x="734" y="555.501" style="fill:#20343c" font-size="18" text-anchor="middle" font-weight="500" >SPI</text>
+<rect x="804.5" y="533.501" width="220" height="32" rx="8" fill="#d1b8ea" stroke="none" />
+<text x="914.5" y="555.501" style="fill:#20343c" font-size="18" text-anchor="middle" font-weight="500" >Control / boot</text>
+<rect x="1042.5" y="533.501" width="180" height="32" rx="8" fill="#f2d58d" stroke="none" />
+<text x="1132.5" y="555.501" style="fill:#20343c" font-size="18" text-anchor="middle" font-weight="500" >Sync / IRQ</text>
+</svg>
